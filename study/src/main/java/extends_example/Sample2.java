@@ -14,6 +14,7 @@ public class Sample2 {
 			String key = NewUtil.getRandom();
 			System.out.printf("새로운 시스템에서 처리될 키값은 %s 입니다.\n", key);
 		}
+		NewUtil.test();
 		System.out.println("==========================================");
 		Stream.generate(UUID::randomUUID)
 		       .limit(5)
@@ -25,6 +26,9 @@ public class Sample2 {
 class LegacyUtil{
 	public static String getRandom() {
 		return ""+(int)(Math.random() * 10 + 1);
+	}
+	public static void test() {
+		System.out.println("test");
 	}
 }
 
