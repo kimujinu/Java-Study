@@ -13,6 +13,12 @@ import java.util.TreeMap;
 public class TreeMap_example {
 
 	public static void main(String[] args) {
+		/*
+		 *  이진검색트리의 형태로 키(Key)와 값(Value)의 쌍으로 이루어진 데이터를 저장한다. 검색과 정렬에 적합한 컬렉션 클래스이다.
+			HashMap이 TreeMap보다 검색에 관한부분은 성능이 더 뛰어나므로 HashMap을 사용하는 것이 좋고,
+			범위검색이나 정렬이 필요한 경우에는 TreeMap이 더 유리하니 TreeMap을 사용하면된다.
+
+		 */
 		// TODO Auto-generated method stub
         String[] firstNames = {"KANG", "KANG", "LEE", "KANG", "CHOI", "KANG", "LEE", "KANG", "KANG", "KANG", "SHIN", "CHOI"};
         
