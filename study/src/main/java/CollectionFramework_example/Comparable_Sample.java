@@ -1,4 +1,4 @@
-package Collections_example;
+package CollectionFramework_example;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import lombok.Data;
 
-public class Sample {
+public class Comparable_Sample {
 	
 	public static void main(String[] args) {
 		List<Employee> list = new ArrayList<>();
