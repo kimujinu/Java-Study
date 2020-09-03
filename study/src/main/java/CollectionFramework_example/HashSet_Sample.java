@@ -10,6 +10,7 @@ public class HashSet_Sample {
 		// TODO Auto-generated method stub
 		Integer[] intarr = {4,4,5,6,1,1,1,2,2,2,3,4,5};
 		
+		// HashSet은 중복을 허용하지 않고 저장순서가 유지되지않는다.
 		Set<Integer> Hashset = new HashSet<>();
 		for(Integer i : intarr) {
 			Hashset.add(i);
